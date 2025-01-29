@@ -24,7 +24,9 @@ app.use('/api/govt', require('./routes/goverment'));
 app.use('/api/scholarships', require('./routes/scholarship'));
 app.use('/api/courses', require('./routes/course'));
 
-
+app.get('/', (req, res) => {
+    res.send('Dropout server is running');
+});
 // Start the server
 app.listen(port, () => {
     console.log(`Server is running at http://localhost:${port}`);
