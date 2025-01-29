@@ -1,0 +1,511 @@
+/*! CSS Used from: https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/animate/animate.min.css */
+
+.section2{
+    margin-top: -10rem;
+} 
+
+.section2 .circularbox{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: rgb(93, 93, 193);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -1rem;
+}
+.circularbox i{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+.section2 .animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.section2 .section2 .fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+.section2 .slideInLeft {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+}
+
+
+.section2 h3 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.section2 h3 {
+    font-size: calc(1.3rem + .6vw);
+}
+
+@media (min-width:1200px) {
+    .section2    h3 {
+        font-size: 1.75rem;
+    }
+}
+
+.section2 p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.section2 a {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+.section2 a:hover {
+    color: #0a58ca;
+}
+
+.section2 img {
+    vertical-align: middle;
+}
+
+.section2 .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+
+.section2 .row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)/ 2);
+    padding-left: calc(var(--bs-gutter-x)/ 2);
+    margin-top: var(--bs-gutter-y);
+}
+
+@media (min-width:768px) {
+    .section2   .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+@media (min-width:992px) {
+    .section2  .col-lg-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+@media (min-width:1200px) {
+    .section2   .col-xl-3 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+}
+
+/*! CSS Used from: https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/thm-icons/style.css */
+[class^="icon-"] {
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.section2 .icon-Group-1:before {
+    content: "\e927";
+}
+
+.section2 .icon-Group-2:before {
+    content: "\e928";
+}
+
+.section2 .icon-Group-3:before {
+    content: "\e929";
+}
+
+.section2 .icon-Group-4:before {
+    content: "\e92a";
+}
+
+/*! CSS Used from: https://mehedi.asiandevelopers.com/govarnex-demo/assets/css/style.css */
+.section2 .auto-container {
+    position: static;
+    max-width: 1320px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.section2 .row {
+    --bs-gutter-x: 30px;
+}
+
+.section2 a {
+    color: var(--thm-gray);
+}
+
+.section2 a,
+.section2 a:hover,
+.section2 a:focus,
+.section2 a:visited {
+    text-decoration: none;
+}
+
+.section2 ::placeholder {
+    color: inherit;
+    opacity: 1;
+}
+
+.section2 h3 {
+    color: var(--thm-black);
+    font-family: var(--thm-font-2);
+    margin: 0;
+}
+
+.section2 p {
+    margin: 0;
+}
+
+.section2 ::placeholder {
+    color: inherit;
+    opacity: 1;
+}
+
+.section2 ::placeholder {
+    color: inherit;
+    opacity: 1;
+}
+
+.section2 img {
+    max-width: 100%;
+    height: auto;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+}
+
+.section2 .features-style1 {
+    position: relative;
+    display: block;
+    padding: 0px 0px 90px;
+    margin-top: -85px;
+    z-index: 10;
+}
+
+.section2 .features-style1 .shape1 {
+    position: absolute;
+    width: 387px;
+    height: 387px;
+    left: -148px;
+    bottom: -190px;
+    border-radius: 50%;
+    border: 1px solid #E5E5E5;
+    z-index: -1;
+}
+
+.section2 .features-style1 .shape2 {
+    position: absolute;
+    width: 205px;
+    height: 197px;
+    left: 150px;
+    bottom: 15px;
+    z-index: -1;
+}
+
+.section2 .features-style1 .shape2 img {
+    -webkit-animation: animation1 5s ease-in infinite;
+    animation: animation1 5s ease-in infinite;
+}
+
+.section2 .features-style1__inner {
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+.section2 .features-style1__single {
+    position: relative;
+    display: block;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 60px 10px rgba(0, 0, 0, 0.07);
+    padding: 50px 30px 41px;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    z-index: 1;
+}
+
+.section2 .features-style1__single::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: var(--thm-base);
+    box-shadow: 0px 0px 46px 0px rgb(0, 0, 0, 0.08);
+    content: "";
+    transform: scaleX(0.7) rotateX(0deg);
+    transition: all 0.4s linear;
+    border-radius: 15px;
+    z-index: -1;
+    opacity: 0;
+}
+
+/* .section2 .features-style1__single:hover::before {
+    transform: scaleX(1.0) rotateX(0deg);
+    transition: all 0.4s linear;
+    opacity: 1;
+} */
+
+.section2 .features-style1__single-icon {
+    position: relative;
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: var(--thm-base);
+    border-radius: 50%;
+    text-align: center;
+    z-index: 1;
+}
+
+.section2 .features-style1__single-icon:before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: rgba(255, 255, 255, .20);
+    border-radius: 50%;
+    transition: .5s;
+    transform: scale(.5);
+    transition-delay: 0.3s;
+    opacity: 0;
+    content: '';
+    z-index: -1;
+}
+
+/* .section2 .features-style1__single:hover .features-style1__single-icon:before {
+    transform: scale(1);
+    opacity: 1;
+} */
+
+.section2 .features-style1__single-icon span::before {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    font-size: 40px;
+    line-height: 80px;
+}
+
+.section2 .features-style1__single-content {
+    position: relative;
+    display: block;
+    margin-top: 24px;
+}
+
+.section2 .features-style1__single-content h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.section2 .features-style1__single-content h3 a {
+    color: var(--thm-black);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+/* 
+.section2 .features-style1__single:hover .features-style1__single-content h3 a {
+    color: #000000;
+}
+
+.section2 .features-style1__single-content h3 a:hover {
+    color: #131313;
+} */
+
+.section2 .features-style1__single-content p {
+    margin: 0;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.section2 .features-style1__single:hover .features-style1__single-content p {
+    color: #000000;
+}
+
+/*! CSS Used from: https://mehedi.asiandevelopers.com/govarnex-demo/assets/css/responsive.css */
+@media only screen and (min-width: 1200px) and (max-width: 1770px) {
+    .section2   .features-style1 .shape1 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .section2  .auto-container {
+        padding: 0px 30px;
+    }
+
+    .section2  .features-style1 .shape1 {
+        display: none;
+    }
+
+    .section2  .features-style1 .shape2 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section2  .auto-container {
+        padding: 0px 30px;
+    }
+
+    .section2  .features-style1 .shape1 {
+        display: none;
+    }
+
+    .section2  .features-style1 .shape2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section2  .auto-container {
+        padding: 0px 20px;
+    }
+
+    .section2  .features-style1__single {
+        max-width: 500px;
+        margin: 0 auto 30px;
+    }
+
+    .section2  .features-style1 .shape1 {
+        display: none;
+    }
+
+    .section2  .features-style1 .shape2 {
+        display: none;
+    }
+}
+
+/*! CSS Used keyframes */
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes slideInLeft {
+    0% {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@-webkit-keyframes animation1 {
+
+    0%,
+    100% {
+        -webkit-transform: rotate(0deg) translateX(0);
+        transform: rotate(0deg) translateX(0);
+    }
+
+    25%,
+    75% {
+        -webkit-transform: rotate(5deg) translateX(15px);
+        transform: rotate(5deg) translateX(15px);
+    }
+
+    50% {
+        -webkit-transform: rotate(10deg) translateX(30px);
+        transform: rotate(10deg) translateX(30px);
+    }
+}
+
+@keyframes animation1 {
+
+    0%,
+    100% {
+        -webkit-transform: rotate(0deg) translateX(0);
+        transform: rotate(0deg) translateX(0);
+    }
+
+    25%,
+    75% {
+        -webkit-transform: rotate(5deg) translateX(15px);
+        transform: rotate(5deg) translateX(15px);
+    }
+
+    50% {
+        -webkit-transform: rotate(10deg) translateX(30px);
+        transform: rotate(10deg) translateX(30px);
+    }
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+    font-family: 'icomoon';
+    src: url('https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/thm-icons/fonts/icomoon.eot?orkqwr');
+    src: url('https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/thm-icons/fonts/icomoon.eot?orkqwr#iefix') format('embedded-opentype'), url('https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/thm-icons/fonts/icomoon.ttf?orkqwr') format('truetype'), url('https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/thm-icons/fonts/icomoon.woff?orkqwr') format('woff'), url('https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/thm-icons/fonts/icomoon.svg?orkqwr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}

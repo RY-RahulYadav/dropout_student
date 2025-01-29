@@ -1,0 +1,121 @@
+/*! CSS Used from: https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/animate/animate.min.css */
+.footer .animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both;}
+.footer .fadeInUp{-webkit-animation-name:fadeInUp;animation-name:fadeInUp;}
+/*! CSS Used from: https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/bootstrap/css/bootstrap.min.css */
+.footer *, .footer ::after, .footer ::before{box-sizing:border-box;}
+.footer h3{margin-top:0;margin-bottom:.5rem;font-weight:500;line-height:1.2;}
+.footer h3{font-size:calc(1.3rem + .6vw);}
+
+@media (min-width:1200px){
+  .footer h3{font-size:1.75rem;}
+}
+
+.footer p{margin-top:0;margin-bottom:1rem;}
+.footer ul{padding-left:2rem;}
+.footer ul{margin-top:0;margin-bottom:1rem;}
+.footer a{color:#0d6efd;text-decoration:underline;}
+.footer a:hover{color:#0a58ca;}
+.footer img{vertical-align:middle;}
+.footer .container{width:100%;padding-right:var(--bs-gutter-x,.75rem);padding-left:var(--bs-gutter-x,.75rem);margin-right:auto;margin-left:auto;}
+@media (min-width:576px){
+  .footer .container{max-width:540px;}
+}
+@media (min-width:768px){
+  .footer .container{max-width:720px;}
+}
+@media (min-width:992px){
+  .footer .container{max-width:960px;}
+}
+@media (min-width:1200px){
+  .footer .container{max-width:1140px;}
+}
+@media (min-width:1400px){
+  .footer .container{max-width:1320px;}
+}
+.footer .row{--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-top:calc(var(--bs-gutter-y) * -1);margin-right:calc(var(--bs-gutter-x)/ -2);margin-left:calc(var(--bs-gutter-x)/ -2);}
+.footer .row>*{flex-shrink:0;width:100%;max-width:100%;padding-right:calc(var(--bs-gutter-x)/ 2);padding-left:calc(var(--bs-gutter-x)/ 2);margin-top:var(--bs-gutter-y);}
+@media (min-width:576px){
+  .footer .col-sm-12{flex:0 0 auto;width:100%;}
+}
+@media (min-width:768px){
+  .footer .col-md-6{flex:0 0 auto;width:50%;}
+}
+@media (min-width:992px){
+  .footer .col-lg-6{flex:0 0 auto;width:50%;}
+}
+@media (min-width:1200px){
+  .footer .col-xl-3{flex:0 0 auto;width:25%;}
+}
+.footer .text-center{text-align:center!important;}
+
+/*! CSS Used from: https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/thm-icons/style.css */
+.footer [class^="icon-"]{font-family:'icomoon'!important;speak:never;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.footer .icon-facebook-app-symbol:before{content:"\e900";}
+.footer .icon-twitter:before{content:"\e901";}
+.footer .icon-instagram:before{content:"\e902";}
+.footer .icon-mail-1:before{content:"\e904";}
+.footer .icon-pin:before{content:"\e911";}
+.footer .icon-telephone:before{content:"\e914";}
+
+/*! CSS Used from: https://mehedi.asiandevelopers.com/govarnex-demo/assets/css/module-css/07-footer-section.css */
+.footer .footer-area{position:relative;display:block;background:#212226;z-index:10;}
+.footer .footer-area__shape1{position:absolute;left:0;bottom:0;z-index:-1;}
+.footer .footer{position:relative;display:block;overflow:hidden;padding-top:120px;padding-bottom:111px;z-index:9;}
+.footer .single-footer-widget{position:relative;display:block;}
+.footer .single-footer-widget .title{position:relative;display:flex;align-items:center;margin-top:-7px;}
+.footer .single-footer-widget .title h3{color:#ffffff;font-weight:600;font-size:20px;line-height:28px;text-transform:capitalize;}
+.footer .single-footer-widget .our-company-info{position:relative;display:block;}
+.footer .footer-logo-style1{position:relative;display:block;}
+.footer .footer-logo-style1 a{position:relative;display:inline-block;}
+.footer .our-company-info__text{position:relative;display:block;margin-top:21px;}
+.footer .our-company-info__text p{font-weight:500;font-size:16px;line-height:30px;color:#FFFFFF;}
+.footer .our-company-info__social-link{position:relative;display:block;margin-top:40px;}
+.footer .our-company-info__social-link li{position:relative;display:inline-block;margin-right:16px;line-height:0;}
+.footer .our-company-info__social-link li:last-child{margin-right:0px;}
+.footer .our-company-info__social-link li a{position:relative;display:inline-block;width:50px;height:50px;border-radius:50%;background:rgba(255, 255, 255, 0.2);text-align:center;overflow:hidden;z-index:1;}
+.footer .our-company-info__social-link li a::before{position:absolute;content:"";top:0;left:0;right:0;height:100%;border-radius:50%;background-color:var(--thm-base);-webkit-transition-delay:.1s;transition-delay:.1s;-webkit-transition-timing-function:ease-in-out;transition-timing-function:ease-in-out;-webkit-transition-duration:.4s;transition-duration:.4s;-webkit-transition-property:all;transition-property:all;opacity:1;-webkit-transform-origin:top;transform-origin:top;-webkit-transform-style:preserve-3d;transform-style:preserve-3d;-webkit-transform:scaleY(0);transform:scaleY(0);z-index:-1;}
+.footer .our-company-info__social-link li a:hover::before{opacity:1;-webkit-transform:scaleY(1);transform:scaleY(1);}
+.footer .our-company-info__social-link li a span::before{position:relative;display:inline-block;color:#ffffff;font-size:16px;line-height:50px;}
+.footer .single-footer-widget--explore{position:relative;display:block;margin-left:50px;}
+.footer .footer-widget-links{position:relative;display:block;overflow:hidden;padding-top:35px;}
+.footer .footer-widget-links ul{position:relative;display:block;overflow:hidden;}
+.footer .footer-widget-links ul li{position:relative;display:block;margin-bottom:18px;}
+.footer .footer-widget-links ul li:last-child{margin-bottom:0px;}
+.footer .footer-widget-links ul li:last-child{margin-bottom:0;}
+.footer .footer-widget-links ul li a{position:relative;display:inline-block;color:#ffffff;font-weight:500;font-size:16px;line-height:26px;transition:all 200ms linear;transition-delay:0.1s;}
+.footer .footer-widget-links ul li a:hover{color:var(--thm-base);}
+.footer .single-footer-widget--links{position:relative;display:block;margin-left:12px;}
+.footer .footer-widget--contact-info{position:relative;display:block;padding-top:34px;}
+.footer .footer-widget--contact-info-text{position:relative;display:block;margin-bottom:27px;}
+.footer .footer-widget--contact-info-text p{color:#FFFFFF;font-weight:500;font-size:16px;line-height:30px;}
+.footer .footer-widget--contact-info ul{position:relative;display:block;}
+.footer .footer-widget--contact-info ul li{position:relative;display:flex;align-items:center;margin-bottom:12px;}
+.footer .footer-widget--contact-info ul li:last-child{margin-bottom:0px;}
+.footer .footer-widget--contact-info ul li .icon{position:relative;display:block;line-height:0;}
+.footer .footer-widget--contact-info ul li .icon span::before{position:relative;display:inline-block;color:var(--thm-base);font-size:20px;}
+.footer .footer-widget--contact-info ul li .text{position:relative;display:block;margin-left:8px;}
+.footer .footer-widget--contact-info ul li .text p{font-weight:500;font-size:16px;line-height:26px;color:#FFFFFF;}
+.footer .footer-widget--contact-info ul li .text p a{color:#ffffff;transition:all 200ms linear;transition-delay:0.1s;}
+.footer .footer-widget--contact-info ul li .text p a:hover{color:var(--thm-base);}
+.footer .footer-bottom{position:relative;display:block;border-top:1px solid rgba(255, 255, 255, 0.1);}
+.footer .footer-bottom .container{position:relative;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;padding-top:13px;padding-bottom:15px;}
+.footer .footer-bottom .copyright-text{position:relative;display:inline-block;color:#FFFFFF;font-weight:500;font-size:16px;line-height:20px;}
+.footer .footer-bottom .copyright-text a{color:#ffffff;transition:all 200ms linear;transition-delay:0.1s;}
+.footer .footer-bottom .copyright-text a:hover{color:var(--thm-base);}
+.footer .footer-bottom .footer-menu{position:relative;display:inline-block;}
+.footer .footer-bottom .footer-menu ul{position:relative;display:flex;}
+.footer .footer-bottom .footer-menu ul li{position:relative;display:inline-block;margin-right:20px;line-height:0;}
+.footer .footer-bottom .footer-menu ul li a{position:relative;display:inline-block;color:#ffffff;font-weight:500;font-size:16px;line-height:24px;transition:all 200ms linear;transition-delay:0.1s;}
+.footer .footer-bottom .footer-menu ul li a:hover{color:var(--thm-base);}
+
+/*! CSS Used from: https://mehedi.asiandevelopers.com/govarnex-demo/assets/css/module-css/03-blog.css */
+.footer .blog-post-box .single-blog-post{position:relative;display:block;overflow:hidden;background:#ffffff;border-radius:5px;box-shadow:0px 0px 15px rgba(0, 0, 0, 0.1);transition:all 0.3s ease;}
+.footer .blog-post-box .single-blog-post:hover{box-shadow:0px 0px 20px rgba(0, 0, 0, 0.2);}
+.footer .blog-post-box .single-blog-post .thumb{position:relative;display:block;overflow:hidden;}
+.footer .blog-post-box .single-blog-post .thumb img{width:100%;height:auto;}
+.footer .blog-post-box .single-blog-post .content{position:relative;display:block;padding:20px;}
+.footer .blog-post-box .single-blog-post .content .title{position:relative;display:block;margin-bottom:10px;}
+.footer .blog-post-box .single-blog-post .content .title a{color:#333333;font-weight:500;font-size:16px;line-height:24px;transition:all 0.3s ease;}
+.footer .blog-post-box .single-blog-post .content .title a:hover{color:var(--thm-base);}
+.footer .blog-post-box .single-blog-post .content .text{position:relative;display:block;margin-bottom:20px;font-size:14px;line-height:22px;color:#666666;}
+.footer .blog-post-box .single-blog-post .content .read-more a{color:var(--thm-base);font-weight:500;}

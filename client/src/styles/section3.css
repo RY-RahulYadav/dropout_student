@@ -1,0 +1,742 @@
+/*! CSS Used from: https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/animate/custom-animate.css */
+.rotate-me {
+    animation-name: rotateme;
+    animation-duration: 24s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: rotateme;
+    -webkit-animation-duration: 24s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: rotateme;
+    -moz-animation-duration: 24s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: rotateme;
+    -ms-animation-duration: 24s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: rotateme;
+    -o-animation-duration: 24s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+.float-bob-y {
+    -webkit-animation-name: float-bob-y;
+    animation-name: float-bob-y;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+/*! CSS Used from: https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/bootstrap/css/bootstrap.min.css */
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+h2,
+h3,
+h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: calc(1.325rem + .9vw);
+}
+
+@media (min-width:1200px) {
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+h3 {
+    font-size: calc(1.3rem + .6vw);
+}
+
+@media (min-width:1200px) {
+    h3 {
+        font-size: 1.75rem;
+    }
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+ul {
+    padding-left: 2rem;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #0a58ca;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)/ 2);
+    padding-left: calc(var(--bs-gutter-x)/ 2);
+    margin-top: var(--bs-gutter-y);
+}
+
+@media (min-width:1200px) {
+    .col-xl-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+/*! CSS Used from: https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/odometer/odometer.min.css */
+.odometer.odometer-auto-theme {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.odometer.odometer-auto-theme .odometer-digit {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.odometer.odometer-auto-theme .odometer-digit .odometer-digit-spacer {
+    display: inline-block;
+    vertical-align: middle;
+    visibility: hidden;
+}
+
+.odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner {
+    text-align: left;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.odometer.odometer-auto-theme .odometer-digit .odometer-ribbon {
+    display: block;
+}
+
+.odometer.odometer-auto-theme .odometer-digit .odometer-ribbon-inner {
+    display: block;
+    -webkit-backface-visibility: hidden;
+}
+
+.odometer.odometer-auto-theme .odometer-digit .odometer-value {
+    display: block;
+    -webkit-transform: translateZ(0);
+}
+
+.odometer.odometer-auto-theme {
+    font-family: "Helvetica Neue", sans-serif;
+    line-height: 1.1em;
+}
+
+.odometer.odometer-auto-theme .odometer-value {
+    text-align: center;
+}
+
+/*! CSS Used from: https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/thm-icons/style.css */
+[class^="icon-"] {
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-check:before {
+    content: "\e90c";
+}
+
+/*! CSS Used from: https://mehedi.asiandevelopers.com/govarnex-demo/assets/css/module-css/03-about-section.css */
+.about-style1 {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 0px 0 0px;
+    z-index: 1;
+}
+
+.about-style1__content {
+    position: relative;
+    display: block;
+    max-width: 600px;
+    width: 100%;
+}
+
+.about-style1__content .sec-title {
+    padding-bottom: 31px;
+}
+
+.about-style1__content .sec-title h2 span {
+    color: var(--thm-base);
+}
+
+.about-style1__content-text {
+    position: relative;
+    display: block;
+}
+
+.about-style1__content-text p {
+    margin: 0;
+}
+
+.about-style1__content-signature {
+    position: relative;
+    display: block;
+    margin-top: 16px;
+}
+
+.about-style1__content-list {
+    position: relative;
+    display: block;
+    margin-top: 23px;
+}
+
+.about-style1__content-list li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.about-style1__content-list li:last-child {
+    margin-bottom: 0;
+}
+
+.about-style1__content-list li .icon-box {
+    position: relative;
+    display: block;
+}
+
+.about-style1__content-list li .icon-box span::before {
+    position: relative;
+    display: inline-block;
+    color: var(--thm-base);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.about-style1__content-list li .text-box {
+    position: relative;
+    display: block;
+    margin-left: 12px;
+}
+
+.about-style1__content-list li .text-box p {
+    color: var(--thm-black);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.about-style1__content-btn {
+    position: relative;
+    display: block;
+    margin-top: 40px;
+    line-height: 0;
+}
+
+.about-style1__content-btn .btn-one {
+    box-shadow: 0px 15px 50px rgba(235, 41, 44, 0.3);
+}
+
+.about-style1__img {
+    position: relative;
+    display: block;
+    margin-left: 30px;
+    max-width: 600px;
+    width: 100%;
+    z-index: 1;
+}
+
+.about-style1__img .shape1 {
+    position: absolute;
+    top: 235px;
+    left: 20px;
+    z-index: -1;
+}
+
+.about-style1__img .shape2 {
+    position: absolute;
+    top: 90px;
+    right: -50px;
+    z-index: -1;
+}
+
+.about-style1__img .shape3 {
+    position: absolute;
+    left: 350px;
+    right: -999999px;
+    bottom: 100px;
+    height: 320px;
+    background: var(--thm-base);
+    content: "";
+    z-index: -1;
+}
+
+.about-style1__img-inner {
+    position: relative;
+    display: block;
+}
+
+.about-style1__img-inner img {
+    width: auto;
+}
+
+.about-style1__img .experience-box {
+    position: absolute;
+    top: 140px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 60px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+.about-style1__img .experience-box h2 {
+    color: var(--thm-base);
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 36px;
+    font-family: var(--thm-font-2);
+}
+
+.about-style1__img .experience-box .odometer.odometer-auto-theme {
+    font-family: var(--thm-font-2);
+    line-height: 0.8em;
+}
+
+.about-style1__img .experience-box .title {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+}
+
+.about-style1__img .experience-box .title h3 {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.about-style1__img-client-info {
+    position: absolute;
+    bottom: 70px;
+    left: -60px;
+    padding-left: 50px;
+    padding-top: 26px;
+    width: 300px;
+    height: 120px;
+    background: #FFFFFF;
+    border: 7px solid rgba(235, 41, 44, 0.5);
+    box-shadow: 0px 20px 60px 10px rgba(0, 0, 0, 0.17);
+    border-radius: 310px;
+}
+
+.about-style1__img-client-info h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.about-style1__img-client-info p {
+    font-weight: 500;
+    color: #6E6E6E;
+}
+
+/*! CSS Used from: https://mehedi.asiandevelopers.com/govarnex-demo/assets/css/style.css */
+.auto-container {
+    position: static;
+    max-width: 1320px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.row {
+    --bs-gutter-x: 30px;
+}
+
+a {
+    color: var(--thm-gray);
+}
+
+a,
+a:hover,
+a:focus,
+a:visited {
+    text-decoration: none;
+}
+
+::placeholder {
+    color: inherit;
+    opacity: 1;
+}
+
+h2,
+h3,
+h6 {
+    color: var(--thm-black);
+    font-family: var(--thm-font-2);
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+::placeholder {
+    color: inherit;
+    opacity: 1;
+}
+
+::placeholder {
+    color: inherit;
+    opacity: 1;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.sec-title {
+    position: relative;
+    display: block;
+    margin-top: -5px;
+    padding-bottom: 49px;
+}
+
+.sec-title .sub-title {
+    position: relative;
+    display: block;
+    padding-bottom: 14px;
+}
+
+.sec-title .sub-title h6 {
+    color: var(--thm-base);
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: var(--thm-font);
+}
+
+.sec-title h2 {
+    color: var(--thm-black);
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    font-family: var(--thm-font-2);
+}
+
+.btn-one {
+    position: relative;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 0px 35px 0px;
+    line-height: 50px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: none;
+    background: var(--thm-base);
+    overflow: hidden;
+    font-family: var(--thm-font);
+    transition: all 0.3s ease-in-out 0.1s;
+}
+
+.btn-one:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    border-radius: 25px;
+    background-color: var(--thm-black);
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-transform: scale(0.5, 1);
+    transform: scale(0.5, 1);
+}
+
+.btn-one:hover::before {
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+.btn-one .txt {
+    position: relative;
+    z-index: 1;
+}
+
+.btn-one:hover,
+.btn-one:focus {
+    color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+}
+
+/*! CSS Used from: https://mehedi.asiandevelopers.com/govarnex-demo/assets/css/responsive.css */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .auto-container {
+        padding: 0px 30px;
+    }
+
+    .about-style1__content {
+        max-width: none;
+    }
+
+    .about-style1__content .sec-title h2 br {
+        display: none;
+    }
+
+    .about-style1__img-client-info {
+        left: 0px;
+    }
+
+    .about-style1__img {
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .auto-container {
+        padding: 0px 30px;
+    }
+
+    .about-style1__img {
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+
+    .about-style1__content {
+        max-width: none;
+    }
+
+    .about-style1__content .sec-title h2 br {
+        display: none;
+    }
+
+    .about-style1__img-client-info {
+        left: 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .auto-container {
+        padding: 0px 20px;
+    }
+
+    .sec-title h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .sec-title h2 br {
+        display: none;
+    }
+
+    .about-style1 {
+        padding: 0px 0 120px;
+    }
+
+    .about-style1__content {
+        max-width: none;
+        text-align: center;
+    }
+
+    .about-style1__content-list li {
+        justify-content: center;
+    }
+
+    .about-style1__content-list li .text-box p {
+        font-size: 14px;
+    }
+
+    .about-style1__img {
+        margin-top: 60px;
+        margin-left: 0px;
+        max-width: none;
+        text-align: center;
+    }
+
+    .about-style1__img .shape1 {
+        display: none;
+    }
+
+    .about-style1__img .shape2 {
+        display: none;
+    }
+
+    .about-style1__img-client-info {
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    .about-style1__img .experience-box {
+        position: relative;
+        top: 0px;
+        right: 0;
+        margin: 30px auto;
+    }
+
+    .about-style1__img .shape3 {
+        display: none;
+    }
+}
+
+/*! CSS Used keyframes */
+@keyframes rotateme {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rotateme {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateme {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes float-bob-y {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes float-bob-y {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+    font-family: 'icomoon';
+    src: url('https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/thm-icons/fonts/icomoon.eot?orkqwr');
+    src: url('https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/thm-icons/fonts/icomoon.eot?orkqwr#iefix') format('embedded-opentype'), url('https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/thm-icons/fonts/icomoon.ttf?orkqwr') format('truetype'), url('https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/thm-icons/fonts/icomoon.woff?orkqwr') format('woff'), url('https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/thm-icons/fonts/icomoon.svg?orkqwr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}

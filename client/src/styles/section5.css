@@ -1,0 +1,606 @@
+/*! CSS Used from: https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/animate/animate.min.css */
+.section5 .animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.section5 .fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+
+
+.section5 img {
+    vertical-align: middle;
+}
+
+.section5 .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+
+.section5 .row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)/ 2);
+    padding-left: calc(var(--bs-gutter-x)/ 2);
+    margin-top: var(--bs-gutter-y);
+}
+
+@media (min-width:1200px) {
+    .section5 .section5     .col-xl-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+.section5 .text-center {
+    text-align: center !important;
+}
+
+/*! CSS Used from: https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/thm-icons/style.css */
+[class^="icon-"] {
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.section5 .icon-wall-clock:before {
+    content: "\e905";
+}
+
+.section5 .icon-pin:before {
+    content: "\e911";
+}
+
+/*! CSS Used from: https://mehedi.asiandevelopers.com/govarnex-demo/assets/css/style.css */
+.section5 .auto-container {
+    position: static;
+    max-width: 1320px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.section5 .row {
+    --bs-gutter-x: 30px;
+}
+
+.section5 a {
+    color: var(--thm-gray);
+}
+
+.section5 a,
+.section5 a:hover,
+.section5 a:focus,
+.section5 a:visited {
+    text-decoration: none;
+}
+
+.section5 ::placeholder {
+    color: inherit;
+    opacity: 1;
+}
+
+.section5 h2,
+.section5 h6 {
+    color: var(--thm-black);
+    font-family: var(--thm-font-2);
+    margin: 0;
+}
+
+.section5 p {
+    margin: 0;
+}
+
+.section5 ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.section5 ::placeholder {
+    color: inherit;
+    opacity: 1;
+}
+
+.section5 ::placeholder {
+    color: inherit;
+    opacity: 1;
+}
+
+.section5 ul,
+.section5 li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.section5 li {
+    margin: 0;
+    padding: 0;
+}
+
+.section5 .sec-title {
+    position: relative;
+    display: block;
+    margin-top: -5px;
+    padding-bottom: 49px;
+}
+
+.section5 .sec-title .sub-title {
+    position: relative;
+    display: block;
+    padding-bottom: 14px;
+}
+
+.section5 .sec-title .sub-title h6 {
+    color: var(--thm-base);
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: var(--thm-font);
+}
+
+.section5 .sec-title h2 {
+    color: var(--thm-black);
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    font-family: var(--thm-font-2);
+}
+
+.section5 .btn-one {
+    position: relative;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 0px 35px 0px;
+    line-height: 50px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: none;
+    background: var(--thm-base);
+    overflow: hidden;
+    font-family: var(--thm-font);
+    transition: all 0.3s ease-in-out 0.1s;
+}
+
+.section5 .btn-one:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    border-radius: 25px;
+    background-color: var(--thm-black);
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-transform: scale(0.5, 1);
+    transform: scale(0.5, 1);
+}
+
+.section5 .btn-one:hover::before {
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+.section5 .btn-one .txt {
+    position: relative;
+    z-index: 1;
+}
+
+.section5 .btn-one:hover,
+.section5 .btn-one:focus {
+    color: #ffffff;
+}
+
+.section5 img {
+    max-width: 100%;
+    height: auto;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+}
+
+.section5 .events-style1 {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0px 120px;
+    z-index: 1;
+}
+
+.section5 .events-style1__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.section5 .events-style1__inner {
+    position: relative;
+    display: block;
+}
+
+.section5 .events-style1__single {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 60px 10px rgba(0, 0, 0, 0.07);
+    border-radius: 15px;
+    padding: 50px 50px 50px;
+    margin-bottom: 30px;
+}
+
+.section5 .events-style1__single-left {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.section5 .events-style1__single-left .img-box {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.section5 .events-style1__single-left .img-box:before {
+    position: absolute;
+    content: '';
+    background-color: rgba(var(--thm-black-rgb), 0.4);
+    width: 100%;
+    height: 0%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    transition: all 500ms ease;
+    z-index: 1;
+}
+
+.section5 .events-style1__single:hover .events-style1__single-left .img-box:before {
+    height: 100%;
+    top: 0px;
+}
+
+.section5 .events-style1__single-left .img-box img {
+    width: 100%;
+    transform: scale(1.0);
+    transition: all 0.3s ease-in-out 0.1s opacity .2s ease-in;
+}
+
+.section5 .events-style1__single:hover .events-style1__single-left .img-box img {
+    transform: scale(1.1) rotate(1deg);
+}
+
+.section5 .events-style1__single-left .title {
+    position: relative;
+    display: block;
+    margin-left: 50px;
+}
+
+.section5 .events-style1__single-left .title h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.section5 .events-style1__single-left .title h2 a {
+    color: var(--thm-black);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.section5 .events-style1__single-left .title h2 a:hover {
+    color: var(--thm-base);
+}
+
+.section5 .events-style1__single__right {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.section5 .events-style1__single__right::before {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    bottom: -20px;
+    width: 1px;
+    background: #E5E5E5;
+    content: "";
+}
+
+.section5 .events-style1__single__right .contact-info {
+    position: relative;
+    display: block;
+}
+
+.section5 .events-style1__single__right .contact-info li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.section5 .events-style1__single__right .contact-info li:last-child {
+    margin-bottom: 0;
+}
+
+.section5 .events-style1__single__right .contact-info li .icon {
+    position: relative;
+    display: block;
+}
+
+.section5 .events-style1__single__right .contact-info li .icon span::before {
+    position: relative;
+    display: inline-block;
+    color: var(--thm-base);
+    font-size: 18px;
+    font-weight: 700;
+    top: 3px;
+}
+
+.section5 .events-style1__single__right .contact-info li .text {
+    position: relative;
+    display: block;
+    margin-left: 10px;
+}
+
+.section5 .events-style1__single__right .contact-info li .text p {
+    color: var(--thm-black);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.section5 .events-style1__single__right-btn {
+    position: relative;
+    display: block;
+    margin-left: 100px;
+    line-height: 0;
+}
+
+.section5 .events-style1__single__right-btn .btn-one {
+    color: var(--thm-black);
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    padding: 0px 45px 0px;
+}
+
+.section5 .events-style1__single__right-btn .btn-one::before {
+    background: var(--thm-base);
+}
+
+.section5 .events-style1__single__right-btn .btn-one:hover {
+    color: #ffffff;
+    box-shadow: 0px 15px 50px rgba(235, 41, 44, 0.3);
+}
+
+.section5 .events-style1__btn {
+    position: relative;
+    display: block;
+    line-height: 0;
+    padding-top: 30px;
+}
+
+.section5 .events-style1__btn .btn-one {
+    box-shadow: 0px 15px 50px rgba(235, 41, 44, 0.3);
+}
+
+/*! CSS Used from: https://mehedi.asiandevelopers.com/govarnex-demo/assets/css/responsive.css */
+@media only screen and (min-width: 1200px) and (max-width: 1320px) {
+    .section5    .events-style1__single {
+        padding: 50px 40px 50px;
+    }
+
+    .section5   .events-style1__single-left {
+        margin-right: 40px;
+    }
+
+    .section5   .events-style1__single__right {
+        padding-left: 40px;
+    }
+
+    .section5   .events-style1__single__right-btn {
+        margin-left: 60px;
+    }
+
+    .section5  .events-style1__single-left .title h2 {
+        font-size: 21px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .section5  .auto-container {
+        padding: 0px 30px;
+    }
+
+    .section5  .events-style1__single {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section5  .events-style1__single-left {
+        margin-right: 0px;
+    }
+
+    .section5 .events-style1__single__right {
+        padding-left: 0px;
+    }
+
+    .section5  .events-style1__single__right::before {
+        display: none;
+    }
+
+    .section5  .events-style1__single__right {
+        margin-top: 40px;
+    }
+
+    .section5  .events-style1__single {
+        align-items: flex-start;
+        padding: 50px 175px 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section5  .auto-container {
+        padding: 0px 30px;
+    }
+
+    .section5  .events-style1__single {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section5  .events-style1__single-left {
+        margin-right: 0px;
+    }
+
+    .section5  .events-style1__single__right {
+        padding-left: 0px;
+    }
+
+    .section5  .events-style1__single__right::before {
+        display: none;
+    }
+
+    .section5  .events-style1__single__right {
+        margin-top: 40px;
+    }
+
+    .section5 .events-style1__single {
+        align-items: flex-start;
+        padding: 50px 65px 50px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section5 .auto-container {
+        padding: 0px 20px;
+    }
+
+    .section5 .sec-title h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .section5 .sec-title h2 br {
+        display: none;
+    }
+
+    .section5 .events-style1__single {
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px 30px 50px;
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto 30px;
+    }
+
+    .section5 .events-style1__single-left {
+        margin-right: 0px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section5 .events-style1__single-left .title {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .section5 .events-style1__single__right {
+        padding-left: 0px;
+    }
+
+    .section5  .events-style1__single__right::before {
+        display: none;
+    }
+
+    .section5  .events-style1__single__right {
+        margin-top: 25px;
+        flex-direction: column;
+    }
+
+    .section5  .events-style1__single__right-btn {
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+
+    .section5  .events-style1__single-left .title h2 a br {
+        display: none;
+    }
+}
+
+/*! CSS Used keyframes */
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+    font-family: 'icomoon';
+    src: url('https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/thm-icons/fonts/icomoon.eot?orkqwr');
+    src: url('https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/thm-icons/fonts/icomoon.eot?orkqwr#iefix') format('embedded-opentype'), url('https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/thm-icons/fonts/icomoon.ttf?orkqwr') format('truetype'), url('https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/thm-icons/fonts/icomoon.woff?orkqwr') format('woff'), url('https://mehedi.asiandevelopers.com/govarnex-demo/assets/vendors/thm-icons/fonts/icomoon.svg?orkqwr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
